@@ -13,7 +13,7 @@ _source_path = "compare"
 _include_path = _source_path + "/include"
 
 cc_library(
-	name = "compare",
+	name = _source_path,
 	srcs = glob([_source_path + "/**/*.c"]),
 	hdrs = glob([_include_path + "/**/*.h"]),
 	strip_include_prefix = _include_path,
@@ -29,7 +29,7 @@ _source_path = "standard"
 _include_path = _source_path + "/include"
 
 cc_library(
-	name = "standard",
+	name = _source_path,
 	srcs = glob([_source_path + "/**/*.c"]),
 	hdrs = glob([_include_path + "/**/*.h"]),
 	strip_include_prefix = _include_path,
@@ -41,7 +41,7 @@ _source_path = "sort"
 _include_path = _source_path + "/include"
 
 cc_library(
-	name = "sort",
+	name = _source_path,
 	srcs = glob([_source_path + "/**/*.c"]),
 	hdrs = glob([_include_path + "/**/*.h"]),
 	strip_include_prefix = _include_path,
