@@ -1,7 +1,6 @@
 #ifndef HERBARY_LIB_UTIL_MERGE_SORT_H_INCLUDED
 #define HERBARY_LIB_UTIL_MERGE_SORT_H_INCLUDED
 
-
 #include <stddef.h>
 #include <stdint.h>
 
