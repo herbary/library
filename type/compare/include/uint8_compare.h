@@ -1,0 +1,10 @@
+#ifndef HERBARY_LIB_TYPE_UINT8_COMPARE_H_INCLUDED
+#define HERBARY_LIB_TYPE_UINT8_COMPARE_H_INCLUDED
+
+#include <stdint.h>
+
+#include "./meta_compare.h"
+
+_DEFN_COMPARE_FUNC_TYPE(uint8, uint8_t)
+
+#endif // HERBARY_LIB_TYPE_UINT8_COMPARE_H_INCLUDED

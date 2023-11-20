@@ -1,0 +1,10 @@
+#ifndef HERBARY_LIB_UTIL_INT16_PRINT_H_INCLUDED
+#define HERBARY_LIB_UTIL_INT16_PRINT_H_INCLUDED
+
+#include <stdint.h>
+
+#include "./meta_print.h"
+
+_DEFN_PRINT_FUNC(int16, int16_t)
+
+#endif // HERBARY_LIB_UTIL_INT16_PRINT_H_INCLUDED

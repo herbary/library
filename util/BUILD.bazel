@@ -1,0 +1,74 @@
+cc_library(
+	name = "everything",
+	visibility = ["//visibility:public"],
+	deps = [
+		"//util:compare",
+		"//util:print",
+		"//util:sort",
+		"//util:swap"
+	]
+)
+
+_include_prefix = "herbary/lib/util"
+_source_path = "compare"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "compare",
+	srcs = glob([_source_path + "/**/*.c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"],
+	deps = [
+		"//type:standard",
+		"//type:sort"
+	]
+)
+
+_source_path = "print"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "print",
+	srcs = glob([_source_path + "/**/*c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"],
+	deps = [
+		"//type:standard",
+		"//util:swap"
+	]
+)
+
+_source_path = "sort"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "sort",
+	srcs = glob([_source_path + "/**/*.c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"],
+	deps = [
+		"//type:compare",
+		"//type:standard",
+		"//type:sort",
+		"//util:compare",
+		"//util:swap"
+	]
+)
+
+_source_path = "swap"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "swap",
+	srcs = glob([_source_path + "/**/*.c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"]
+)

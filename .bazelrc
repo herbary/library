@@ -1,0 +1,27 @@
+common --verbose_failures
+
+build --compiler=clang-cl
+build --copt="/options:strict"
+build --copt="/std:c17"
+build --copt="/TC"
+build --copt="/Wall"
+build --copt="/WX"
+build --copt="/sdl"
+build --copt="-ferror-limit=4"
+build --copt="-Wno-newline-eof"
+build --copt="-Wno-declaration-after-statement"
+build --copt="-Wno-unsafe-buffer-usage"
+build --copt="-Wno-reserved-macro-identifier"
+build --copt="-Wno-reserved-identifier"
+build --copt="-Wno-empty-translation-unit"
+build --copt="-Wno-unused-macros"
+build --copt="-Wno-extra-semi-stmt"
+
+build:opt --compilation_mode=opt
+build:opt --copt="/O2"
+
+build:dbg --compilation_mode=dbg
+build:dbg --copt="-g"
+build:dbg --strip="never"
+
+run:dbg --run_under=lldb

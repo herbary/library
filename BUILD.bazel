@@ -1,0 +1,8 @@
+cc_library(
+	name = "everything",
+	visibility = ["//visibility:public"],
+	deps = [
+		"//type:everything",
+		"//util:everything"
+	]
+)

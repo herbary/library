@@ -1,0 +1,10 @@
+#ifndef HERBARY_LIB_TYPE_INT16_COMPARE_H_INCLUDED
+#define HERBARY_LIB_TYPE_INT16_COMPARE_H_INCLUDED
+
+#include <stdint.h>
+
+#include "./meta_compare.h"
+
+_DEFN_COMPARE_FUNC_TYPE(int16, int16_t)
+
+#endif // HERBARY_LIB_TYPE_INT16_COMPARE_H_INCLUDED

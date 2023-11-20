@@ -1,0 +1,50 @@
+cc_library(
+	name = "everything",
+	visibility = ["//visibility:public"],
+	deps = [
+		"//type:compare",
+		"//type:standard",
+		"//type:sort"
+	]
+)
+
+_include_prefix = "herbary/lib/type"
+_source_path = "compare"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "compare",
+	srcs = glob([_source_path + "/**/*.c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"],
+	deps = [
+		"//type:standard",
+		"//type:sort"
+	]
+)
+
+_source_path = "standard"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "standard",
+	srcs = glob([_source_path + "/**/*.c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"]
+)
+
+_source_path = "sort"
+_include_path = _source_path + "/include"
+
+cc_library(
+	name = "sort",
+	srcs = glob([_source_path + "/**/*.c"]),
+	hdrs = glob([_include_path + "/**/*.h"]),
+	strip_include_prefix = _include_path,
+	include_prefix = _include_prefix,
+	visibility = ["//visibility:public"]
+)

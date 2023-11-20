@@ -1,0 +1,10 @@
+#ifndef HERBARY_LIB_UTIL_UINT64_COMPARE_H_INCLUDED
+#define HERBARY_LIB_UTIL_UINT64_COMPARE_H_INCLUDED
+
+#include <stdint.h>
+
+#include "./meta_compare.h"
+
+_DEFN_COMPARE_FUNC(uint64, uint64_t)
+
+#endif // HERBARY_LIB_UTIL_UINT64_COMPARE_H_INCLUDED
