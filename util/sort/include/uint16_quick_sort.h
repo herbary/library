@@ -5,6 +5,6 @@
 
 #include "./meta_sort.h"
 
-_DEFN_SORT_NO_SIZE_PARAM_FUNC(uint16, quick, uint16_t)
+_HERBARY_LIB_UTIL_DEFN_SORT_NO_SIZE_PARAM_FUNC(uint16, quick, uint16_t)
 
 #endif // HERBARY_LIB_UTIL_UINT16_QUICK_SORT_H_INCLUDED

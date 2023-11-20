@@ -6,11 +6,11 @@
 
 #include "herbary/lib/util/size_swap.h"
 
-#define _DEFN_PRINT_FUNC(prefix, type) \
+#define _HERBARY_LIB_UTIL_DEFN_PRINT_FUNC(prefix, type) \
 	void prefix##_array_print_range(const type *const arr, size_t begin, size_t end); \
 	void prefix##_array_print(const type *const arr, const size_t length);
 
-#define _DECL_PRINT_FUNC(prefix, format, type) \
+#define _HERBARY_LIB_UTIL_DECL_PRINT_FUNC(prefix, format, type) \
 	void prefix##_array_print_range(const type *const arr, size_t begin, size_t end) { \
 		if (!arr) { \
 			return; \

@@ -8,4 +8,4 @@
 
 #include "herbary/lib/util/float128_compare.h"
 
-_DECL_IS_SORTED_NO_SIZE_PARAM_FUNC(float128, float128_t)
+_HERBARY_LIB_UTIL_DECL_IS_SORTED_NO_SIZE_PARAM_FUNC(float128, float128_t)

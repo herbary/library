@@ -4,15 +4,15 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#define _DEFN_SWAP_FUNC(prefix, type) \
+#define _HERBARY_LIB_UTIL_DEFN_SWAP_FUNC(prefix, type) \
 	bool prefix##_swap(const size_t size, type *const n0, type *const n1); \
 	bool prefix##_array_swap_indices(const size_t size, type *const arr, const size_t i0, const size_t i1);
 
-#define _DEFN_SWAP_NO_SIZE_PARAM_FUNC(prefix, type) \
+#define _HERBARY_LIB_UTIL_DEFN_SWAP_NO_SIZE_PARAM_FUNC(prefix, type) \
 	bool prefix##_swap(type *const n0, type *const n1); \
 	bool prefix##_array_swap_indices(type *const arr, const size_t i0, const size_t i1);
 
-#define _DECL_SWAP_NO_SIZE_PARAM_FUNC(prefix, type) \
+#define _HERBARY_LIB_UTIL_DECL_SWAP_NO_SIZE_PARAM_FUNC(prefix, type) \
 	bool prefix##_swap(type *const n0, type *const n1) { \
 		return generic_swap(sizeof *n0, (void *)n0, (void *)n1); \
 	} \

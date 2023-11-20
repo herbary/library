@@ -5,6 +5,6 @@
 
 #include "./meta_compare.h"
 
-_DEFN_COMPARE_FUNC_TYPE(int64, int64_t)
+_HERBARY_LIB_TYPE_DEFN_COMPARE_FUNC_TYPE(int64, int64_t)
 
 #endif // HERBARY_LIB_TYPE_INT64_COMPARE_H_INCLUDED

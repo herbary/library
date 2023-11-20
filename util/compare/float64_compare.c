@@ -4,4 +4,4 @@
 
 #include "herbary/lib/type/float64.h"
 
-_DECL_COMPARE_FUNC(float64, float64_t)
+_HERBARY_LIB_UTIL_DECL_COMPARE_FUNC(float64, float64_t)

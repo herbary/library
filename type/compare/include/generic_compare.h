@@ -3,6 +3,6 @@
 
 #include "./meta_compare.h"
 
-_DEFN_COMPARE_NO_GENERIC_FUNC_TYPE(generic, void *const)
+_HERBARY_LIB_TYPE_DEFN_COMPARE_NO_GENERIC_FUNC_TYPE(generic, void *const)
 
 #endif // HERBARY_LIB_TYPE_GENERIC_COMPARE_H_INCLUDED

@@ -5,6 +5,6 @@
 
 #include "./meta_print.h"
 
-_DEFN_PRINT_FUNC(uint32, uint32_t)
+_HERBARY_LIB_UTIL_DEFN_PRINT_FUNC(uint32, uint32_t)
 
 #endif // HERBARY_LIB_UTIL_UINT32_PRINT_H_INCLUDED

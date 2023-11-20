@@ -3,6 +3,6 @@
 
 #include "./meta_swap.h"
 
-_DEFN_SWAP_FUNC(generic, void)
+_HERBARY_LIB_UTIL_DEFN_SWAP_FUNC(generic, void)
 
 #endif // HERBARY_LIB_UTIL_GENERIC_SWAP_H_INCLUDED

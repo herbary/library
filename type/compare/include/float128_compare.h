@@ -5,6 +5,6 @@
 
 #include "herbary/lib/type/float128.h"
 
-_DEFN_COMPARE_FUNC_TYPE(float128, float128_t)
+_HERBARY_LIB_TYPE_DEFN_COMPARE_FUNC_TYPE(float128, float128_t)
 
 #endif // HERBARY_LIB_TYPE_FLOAT128_COMPARE_H_INCLUDED

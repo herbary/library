@@ -8,4 +8,4 @@
 
 #include "herbary/lib/util/int64_compare.h"
 
-_DECL_SORT_NO_SIZE_PARAM_FUNC(int64, merge, int64_t)
+_HERBARY_LIB_UTIL_DECL_SORT_NO_SIZE_PARAM_FUNC(int64, merge, int64_t)

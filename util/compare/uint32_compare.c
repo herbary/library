@@ -4,4 +4,4 @@
 
 #include "./include/meta_compare.h"
 
-_DECL_COMPARE_FUNC(uint32, uint32_t)
+_HERBARY_LIB_UTIL_DECL_COMPARE_FUNC(uint32, uint32_t)

@@ -4,4 +4,4 @@
 
 #include "./include/meta_swap.h"
 
-_DECL_SWAP_NO_SIZE_PARAM_FUNC(size, size_t)
+_HERBARY_LIB_UTIL_DECL_SWAP_NO_SIZE_PARAM_FUNC(size, size_t)
