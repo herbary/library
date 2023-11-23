@@ -4,4 +4,4 @@
 
 #include "./include/meta_print.h"
 
-_HERBARY_LIB_UTIL_DECL_PRINT_FUNC(int16, %d, int16_t)
+_HERBARY_LIB_UTIL_DECL_PRINT_FUNC(int16, %hd, int16_t)
