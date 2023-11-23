@@ -4,4 +4,4 @@
 
 #include "herbary/lib/type/float64.h"
 
-_HERBARY_LIB_UTIL_DECL_PRINT_FUNC(float64, %f, float64_t)
+_HERBARY_LIB_UTIL_DEFN_PRINT_FUNC(float64, %f, float64_t)

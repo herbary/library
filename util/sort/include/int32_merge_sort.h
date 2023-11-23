@@ -5,6 +5,6 @@
 
 #include "./meta_sort.h"
 
-_HERBARY_LIB_UTIL_DEFN_SORT_NO_SIZE_PARAM_FUNC(int32, merge, int32_t)
+_HERBARY_LIB_UTIL_DECL_SORT_NO_SIZE_PARAM_FUNC(int32, merge, int32_t)
 
 #endif // HERBARY_LIB_UTIL_INT32_MERGE_SORT_H_INCLUDED

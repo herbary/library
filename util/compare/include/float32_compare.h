@@ -5,6 +5,6 @@
 
 #include "herbary/lib/type/float32.h"
 
-_HERBARY_LIB_UTIL_DEFN_COMPARE_FUNC(float32, float32_t)
+_HERBARY_LIB_UTIL_DECL_COMPARE_FUNC(float32, float32_t)
 
 #endif // HERBARY_LIB_UTIL_FLOAT32_COMPARE_H_INCLUDED

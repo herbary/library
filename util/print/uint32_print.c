@@ -4,4 +4,4 @@
 
 #include "./include/meta_print.h"
 
-_HERBARY_LIB_UTIL_DECL_PRINT_FUNC(uint32, %u, uint32_t)
+_HERBARY_LIB_UTIL_DEFN_PRINT_FUNC(uint32, %u, uint32_t)

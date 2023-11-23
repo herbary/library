@@ -5,6 +5,6 @@
 
 #include "./meta_compare.h"
 
-_HERBARY_LIB_UTIL_DEFN_COMPARE_FUNC(uint8, uint8_t)
+_HERBARY_LIB_UTIL_DECL_COMPARE_FUNC(uint8, uint8_t)
 
 #endif // HERBARY_LIB_UTIL_UINT8_COMPARE_H_INCLUDED

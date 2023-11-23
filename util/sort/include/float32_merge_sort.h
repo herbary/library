@@ -5,6 +5,6 @@
 
 #include "herbary/lib/type/float32.h"
 
-_HERBARY_LIB_UTIL_DEFN_SORT_NO_SIZE_PARAM_FUNC(float32, merge, float32_t)
+_HERBARY_LIB_UTIL_DECL_SORT_NO_SIZE_PARAM_FUNC(float32, merge, float32_t)
 
 #endif // HERBARY_LIB_UTIL_FLOAT32_MERGE_SORT_H_INCLUDED

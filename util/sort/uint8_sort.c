@@ -8,4 +8,4 @@
 
 #include "herbary/lib/util/uint8_compare.h"
 
-_HERBARY_LIB_UTIL_DECL_IS_SORTED_NO_SIZE_PARAM_FUNC(uint8, uint8_t)
+_HERBARY_LIB_UTIL_DEFN_IS_SORTED_NO_SIZE_PARAM_FUNC(uint8, uint8_t)
