@@ -18,9 +18,9 @@
 		if (begin > end && !size_swap(&begin, &end)) { \
 			return; \
 		} \
-		printf("[" #format, arr[begin]); \
+		printf("[" format, arr[begin]); \
 		for (size_t i = begin + 1; i <= end; ++i) { \
-			printf(", " #format, arr[i]); \
+			printf(", " format, arr[i]); \
 		} \
 		printf("]\n"); \
 	} \
