@@ -16,6 +16,7 @@ build --copt="-Wno-reserved-identifier"
 build --copt="-Wno-empty-translation-unit"
 build --copt="-Wno-unused-macros"
 build --copt="-Wno-extra-semi-stmt"
+build --copt="-Wno-double-promotion"
 
 build:opt --compilation_mode=opt
 build:opt --copt="/O2"
