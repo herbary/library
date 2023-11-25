@@ -10,7 +10,7 @@ config.ignore_files = {
 	"^%.cache/",
 	"^bazel%-.*/",
 	"^external/",
-	"^compile_commands.json$"
+	"^compile_commands%.json$"
 }
 
 config.indent_size = 4
